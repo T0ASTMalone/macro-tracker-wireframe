@@ -54,8 +54,19 @@ label {
 .food-item {
   border: 1px solid black;
   margin-bottom: 10px;
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
 }
 
+.food-item div {
+  text-align: left;
+  line-height: 2;
+}
+
+.num {
+  width: 50px;
+}
 .nav {
   display: flex;
   justify-content: space-between;

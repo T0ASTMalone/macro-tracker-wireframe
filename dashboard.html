@@ -9,7 +9,8 @@
   </head>
   <body>
     <nav class="nav" role="navigation">
-      Nav <a href="index.html">Log out</a>
+      <a href="index.html">Nav</a>
+      <a href="index.html">Log out</a>
     </nav>
     <main>
       <header>
@@ -20,16 +21,24 @@
           <h2>Overview</h2>
         </header>
         <div class="progress">
-          <div class="macro">
-            <div class="inner-circle"><p>P</p></div>
-          </div>
-          <div class="macro">
-            <div class="inner-circle"><p>C</p></div>
-          </div>
-          <div class="macro">
-            <div class="inner-circle">
-              <p>F</p>
+          <div class="macro-container">
+            <div class="macro">
+              <div class="inner-circle"><p>P</p></div>
             </div>
+            <p>--%</p>
+          </div>
+          <div class="macro-container">
+              <div class="macro">
+                <div class="inner-circle"><p>C</p></div>
+              </div>
+              <p>--%</p>
+            </div>          
+            <div class="macro-container">
+                <div class="macro">
+                  <div class="inner-circle"><p>F</p></div>
+                </div>
+                <p>--%</p>
+              </div>
           </div>
         </div>
       </section>
@@ -38,22 +47,37 @@
           <h2>Todays meals</h2>
         </header>
         <div class="meal">
-          <p class="meal-name">Meal 1</p>
-          <span>P: 20g</span>
-          <span>C: 35g</span>
-          <span>F: 5g</span>
+          <div class="meal-macros">
+            <p>Meal name</p>
+            <span>P: 20g</span>
+            <span>C: 35g</span>
+            <span>F: 5g</span>
+          </div>
+          <div class="button-container">
+            <button><a href="dashboard.html">Delete</a></button>
+          </div>
         </div>
         <div class="meal">
-          <p class="meal-name">Meal 2</p>
-          <span>P: 20g</span>
-          <span>C: 35g</span>
-          <span>F: 5g</span>
+          <div class="meal-macros">
+            <p>Meal name</p>
+            <span>P: 20g</span>
+            <span>C: 35g</span>
+            <span>F: 5g</span>
+          </div>
+          <div class="button-container">
+            <button><a href="dashboard.html">Delete</a></button>
+          </div>
         </div>
         <div class="meal">
-          <p class="meal-name">Meal 3</p>
-          <span>P: 20g</span>
-          <span>C: 35g</span>
-          <span>F: 5g</span>
+          <div class="meal-macros">
+            <p>Meal name</p>
+            <span>P: 20g</span>
+            <span>C: 35g</span>
+            <span>F: 5g</span>
+          </div>
+          <div class="button-container">
+            <button><a href="dashboard.html">Delete</a></button>
+          </div>
         </div>
         <button class="add-meal"><a href="add-meal.html">Add Meal</a></button>
       </section>

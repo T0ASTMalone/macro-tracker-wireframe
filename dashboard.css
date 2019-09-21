@@ -84,6 +84,7 @@ p + p {
 
 .progress {
   display: flex;
+  justify-content: space-around;
 }
 
 .meal {
@@ -98,6 +99,27 @@ p + p {
 }
 
 .nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.meal {
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+
+.meal-macros {
+  text-align: left;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav,
+.meal {
   display: flex;
   justify-content: space-between;
   padding: 10px;
