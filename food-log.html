@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="food-log.css" type="text/css" />
+    <title>Food Log</title>
+  </head>
+  <body>
+    <nav class="nav" role="navigation">
+      Nav <a href="index.html">Log out</a>
+    </nav>
+    <main>
+      <header>
+        <h1>Food Log</h1>
+      </header>
+      <div>
+        <h3>Search</h3>
+
+        <label for="food-name">Food name</label>
+        <input id="food-name" type="text" placeholder="food name" />
+        <button>Search</button>
+      </div>
+
+      <div class="filter">
+        <h3>Filter</h3>
+        <label for="macro">Macros</label>
+        <select name="macro" id="macro">
+          <option selected value=""> -- select an option -- </option>
+          <option value="protein">Protein</option>
+          <option value="carbs">Carbs</option>
+          <option value="fats">Fats</option>
+        </select>
+        <label for="ascend-descend">Sort</label>
+        <select name="ascend-or-descend" id="ascend-descend">
+          <option selected value=""> -- select an option -- </option>
+          <option value="ascending">Ascending</option>
+          <option value="descending">Descending</option>
+        </select>
+      </div>
+
+      <section>
+        <header>
+          <h3>Today</h3>
+        </header>
+
+        <div class="food-item">
+          <p>Food name</p>
+          <div class="food-macros">
+            <span>P: 20g</span>
+            <span>C: 35g</span>
+            <span>F: 5g</span>
+          </div>
+          <button><a href="add-meal.html">Add Food</a></button>
+        </div>
+        <div class="food-item">
+          <p>Food name</p>
+          <div class="food-macros">
+            <span>P: 20g</span>
+            <span>C: 35g</span>
+            <span>F: 5g</span>
+          </div>
+          <button><a href="add-meal.html">Add Food</a></button>
+        </div>
+        <div class="food-item">
+          <p>Food name</p>
+          <div class="food-macros">
+            <span>P: 20g</span>
+            <span>C: 35g</span>
+            <span>F: 5g</span>
+          </div>
+          <button><a href="add-meal.html">Add Food</a></button>
+        </div>
+        <div class="food-item">
+          <p>Food name</p>
+          <div class="food-macros">
+            <span>P: 20g</span>
+            <span>C: 35g</span>
+            <span>F: 5g</span>
+          </div>
+          <button><a href="add-meal.html">Add Food</a></button>
+        </div>
+      </section>
+      <button>Load more</button>
+    </main>
+  </body>
+</html>

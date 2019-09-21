@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="add-food.css" type="text/css" />
+    <title>Add Food</title>
+  </head>
+  <body>
+    <nav class="nav" role="navigation">
+      Nav <a href="index.html">Log out</a>
+    </nav>
+    <main>
+      <header>
+        <h1>Add Food</h1>
+      </header>
+      <section>
+        <header>
+          <h3>Search for Food Item</h3>
+        </header>
+        <form action="search">
+          <input type="text" placeholder="Food name" />
+          <button>Search</button>
+        </form>
+
+        <div class="search-results">
+          <h3>Search Results</h3>
+
+          <div class="food-item">
+            <p>Food name</p>
+            <div>
+              <span>P: 20g</span>
+              <span>C: 35g</span>
+              <span>F: 5g</span>
+            </div>
+            <button><a href="add-meal.html">Add Food</a></button>
+          </div>
+          <div class="food-item">
+            <p>Food name</p>
+            <div>
+              <span>P: 20g</span>
+              <span>C: 35g</span>
+              <span>F: 5g</span>
+            </div>
+            <button><a href="add-meal.html">Add Food</a></button>
+          </div>
+          <div class="food-item">
+            <p>Food name</p>
+            <div>
+              <span>P: 20g</span>
+              <span>C: 35g</span>
+              <span>F: 5g</span>
+            </div>
+            <button><a href="add-meal.html">Add Food</a></button>
+          </div>
+
+          <button>Load more</button>
+        </div>
+      </section>
+      <section>
+        <header>
+          <h3>Create a new food</h3>
+        </header>
+        <form action="create-food-item">
+          <label for="food-name">Food Name</label>
+          <input id="food-name" type="text" placeholder="Food name" />
+          <label for="protein">Protein</label>
+          <input type="number" id="protein" placeholder="10" />
+          <label for="protein">Carbs</label>
+          <input type="number" id="carbs" placeholder="10" />
+          <label for="protein">Fats</label>
+          <input type="number" id="fats" placeholder="10" /><br />
+          <button><a href="add-meal.html">Add Food</a></button>
+        </form>
+      </section>
+
+      <section>
+        <header>
+          <h3>Add existing food</h3>
+        </header>
+        <button><a href="food-log.html">Add existing Food</a></button>
+      </section>
+    </main>
+  </body>
+</html>

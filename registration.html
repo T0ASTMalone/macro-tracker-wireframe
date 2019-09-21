@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="registraton.css" type="text/css" />
+    <title>Registration</title>
+  </head>
+  <body>
+    <nav role="navigation">Nav</nav>
+    <main>
+      <header>
+        <h1 class="logo">Macrofy</h1>
+        <h2 class="tagline">Make your goals, then meet your goals</h2>
+      </header>
+      <section>
+        <header>
+          <h1>Register</h1>
+        </header>
+        <form id="register-user">
+                <label for="email">Email</label>
+          <input id="email" type="email" placeholder="some.email@gmail.com" />
+          <label for="password">Password</label>
+          <input id="password" type="password" placeholder="Password" />
+          <label for="repeat-password">Confirm Password</label>
+          <input id="repeat-password" type="password" placeholder="Confirm Password" />
+          <div class="user-info">
+            <div class="user-info-section">
+              <label for="age">Age</label>
+              <input id="age" type="number" placeholder="18" min="16" /><br>
+              <label for="gender">Gender</label>
+              <select name="gender" id="gender">
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+              </select><br>
+              <input type="radio" name="unit" class="metric">Metric</input>
+              <input type="radio" name="unit" class="Imperial">Imperial</input></br>
+              <label for="height">Height</label>
+              <input id="height" type="number" placeholder="5" min="0" />
+              <span>In</span></br>
+              <label for="weight">Weight</label>
+              <input id="weight" type="number" placeholder="130" min="100"/>
+              <span>lb</span><br>
+              <div class="slidecontainer">
+                  <label for="level-of-activity">Level of activity</label><br>
+                <input id="level-of-activity" type="range" min="1" max="100" value="50" class="slider">
+              </div>
+              <label for="goals">Fitness Goals</label>
+              <select name="goals" id="goals">
+                  <option value="maintain">Maintain weight</option>
+                  <option value="gain">Gain weight</option>
+                  <option value="lose">Lose weight</option>
+              </select>
+            </div>
+          </div>
+          <button><a href="dashboard.html">Register</a></button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
